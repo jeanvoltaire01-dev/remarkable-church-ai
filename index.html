@@ -191,6 +191,7 @@
                   <Card className="space-y-4">
                     <div className="text-2xl font-bold">Welcome, Pastor 👋</div>
                     <p className="text-gray-600">Scan from your book → you’re here. Enter your ZIP to generate a local, 6‑month plan aligned to Project 13. You can use demo ZIP <span className="font-mono">{demoZip}</span> to explore.</p>
+                    <p className="text-gray-600">Scan from your book → you’re here. Enter your ZIP to generate a local, 6‑month plan aligned to Project 13. You can use demo ZIP <span className="font-medium">{demoZip}</span>.</p>
                     <div className="grid sm:grid-cols-3 gap-3">
                       <div className="sm:col-span-2">
                         <Input placeholder="Enter ZIP code" value={zip} onChange={(e)=>setZip(e.target.value)} />
@@ -403,8 +404,3 @@
         );
       }
 
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<App/>);
-    </script>
-  </body>
-</html>
