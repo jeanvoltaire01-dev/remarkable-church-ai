@@ -6,6 +6,16 @@ Building ReMarkable AI 21st Churches
 
 Visit the live application at: [https://remarkable-church-ai.vercel.app](https://remarkable-church-ai.vercel.app)
 
+### 📱 QR Code
+
+Scan the QR code to access the app on your mobile device:
+
+![QR Code](qr-code.png)
+
+**Available formats:**
+- `qr-code.png` - PNG image (370x370px)
+- `qr-code.svg` - SVG vector image (scalable)
+
 ## 📋 Project Overview
 
 This is a no-build prototype for ReMarkable Church AI (Project 13). The application is a single-page HTML file that uses:
